@@ -28,7 +28,7 @@ int panjang;
         return hasil;
        }
     public static void main(String[] args){
-    persegi persegi =new persegi();
+    Main persegi =new Main();
     persegi.lebar=3;
     persegi.panjang=10;
     
@@ -40,7 +40,7 @@ int panjang;
     System.out.println("hasil mencari luas adalah:"+hasil_mencariluas);
     System.out.println("hasil mencari lkeliling adalah:"+hasil_mencarikeliling);
     System.out.println("hasil mencari panjang adalah:"+hasil_mencaripanjang);
-    System.out.println("hasil mencari lebar adalah;"+hasil_mencarilebar);
+    System.out.println("hasil mencari lebar adalah:"+hasil_mencarilebar);
 }
    
     
