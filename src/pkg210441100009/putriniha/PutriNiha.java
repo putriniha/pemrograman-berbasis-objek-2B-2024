@@ -14,7 +14,7 @@ public class PutriNiha {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello pun!");
+        System.out.println("Hello pun!!!");
     }
     
 }
