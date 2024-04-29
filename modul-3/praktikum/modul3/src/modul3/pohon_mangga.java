@@ -17,5 +17,6 @@ public class pohon_mangga extends tumbuhan {
     
     public void jenis_buah(){
         System.out.println("buah mangga");
+        System.out.println(jumlah_buah);
     }
 }

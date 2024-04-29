@@ -9,18 +9,23 @@ package modul3;
  * @author HP
  */
 public class Modul3 {
-
+    private int jumlah = 10;
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    
+    public void prin(){
+        System.out.println(jumlah);
+    }
+    public void main(String[] args) {
         // TODO code application logic here
         pohon_mangga mangga = new pohon_mangga();
         
         mangga.daun();
         mangga.jenis_buah();
         mangga.tempat_hidup();
-    
+        
+        System.out.println(jumlah);
         
        
         teratai teratai1 = new teratai();
